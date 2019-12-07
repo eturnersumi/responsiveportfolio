@@ -1,0 +1,10 @@
+.navbar-brand {
+    background-color:teal;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.navbar-nav {
+    padding-left: 80%;
+}
