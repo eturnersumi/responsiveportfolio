@@ -1,10 +1,29 @@
-.navbar-brand {
+.navbar-light .navbar-brand {
     background-color:teal;
     color: white;
     font-size: 30px;
     padding: 30px;
 }
 
+/* .navbar-brand {
+    background-color:teal;
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+} */
+
 .navbar-nav {
     padding-left: 80%;
+}
+
+.navbar navbar-expand-lg navbar-light bg-light {
+    padding-bottom: 0;
+}
+
+/* .container {
+    background-color: yellow;
+} */
+
+body {
+    background-color: yellow;
 }
