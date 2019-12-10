@@ -1,16 +1,14 @@
+
+
+/* Customize nav bar */
 .navbar-light .navbar-brand {
     background-color:teal;
     color: white;
     font-size: 30px;
     padding: 30px;
+    position: relative;
+    left: 10%;
 }
-
-/* .navbar-brand {
-    background-color:teal;
-    color: white;
-    font-size: 30px;
-    padding: 30px;
-} */
 
 .navbar-nav {
     padding-left: 80%;
@@ -24,6 +22,42 @@
     background-color: yellow;
 } */
 
+/* Set background customization  */
 body {
-    background-color: yellow;
+    background-image: url(../responsiveportfolio/assets/images/greenbckgd.png);
+}
+
+h2 {
+    color: teal;
+    border-bottom: 1px solid gray;
+}
+
+/* Customize image size and position */
+#imgofme {
+    /* display: block; */
+    float: left;
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+}
+
+.content  {
+    width: 40%;
+    background-color: white;
+    padding: 20px;
+    position: fixed;
+    top: 20%;
+    left: 11%;
+}
+
+
+/* Set sticky footer settings */
+footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 90%;
+    text-align: center;
 }
