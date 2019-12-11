@@ -68,14 +68,14 @@ footer {
     color: rgb(255, 255, 255);
 }
 
-/* If the screen size is 600px or more, perform the following */
+/* If the screen size is 981px or more, perform the following */
 @media only screen and (min-width: 981px) {
     .content {
         width: 960px;
     }
 }
 
-/* If the screen size is 600 or less, perform the following */
+/* If the screen size is 980 or less, perform the following */
 @media only screen and (max-width: 980px) {
     .content {
         width: 100%;
@@ -95,6 +95,10 @@ footer {
     }
     h2 {
         font-size: 20px;
+    }
+    footer {
+        padding: 0;
+        top: 97%;
     }
 
 }
