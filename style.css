@@ -1,36 +1,37 @@
 
 
-/* Customize nav bar */
+/* Customization for name logo */
 .navbar-light .navbar-brand {
-    background-color:teal;
+    background-color:rgb(85, 194, 188);
     color: white;
     font-size: 30px;
     padding: 30px;
     margin-left: 10.5%;
+    font-weight: bold;
     /* position: relative;
     left: 10%; */
 }
 
+/* Padding to set about, portfolio, contact to the right */
 .navbar-nav {
     padding-left: 80%;
 }
 
+/* Setting padding for full nav-bar */
 .navbar navbar-expand-lg navbar-light bg-light {
     padding-bottom: 0;
 }
 
-/* .container {
-    background-color: yellow;
-} */
-
-/* Set background customization  */
+/* Set background image  */
 body {
     background-image: url(../responsiveportfolio/assets/images/greenbckgd.png);
 }
 
+/* About Me header */
 h2 {
-    color: teal;
-    border-bottom: 1px solid gray;
+    color: rgb(85, 194, 188);
+    border-bottom: 2px solid rgb(204, 199, 199);
+    padding: 10px;
 }
 
 /* Customize image size and position */
@@ -42,37 +43,63 @@ h2 {
     padding: 20px;
 }
 
+/* Div wrapper for About me header, pic and paragraph */
 .content  {
-    width: 960px;
+    /* width: 960px; */
     background-color: white;
     padding: 20px;
-    position: fixed;
+    margin-left: 11%;
+    margin-top: 2%;
+    /* position: fixed;
     top: 20%;
-    left: 11%;
+    left: 11%; */
 }
 
 
 /* Set sticky footer settings */
 footer {
     background-color: #666666;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid rgb(85, 194, 188);
     padding: 20px;
     position: fixed;
     width: 100%;
     top: 93%;
     text-align: center;
+    color: rgb(255, 255, 255);
 }
 
 /* If the screen size is 600px or more, perform the following */
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 981px) {
     .content {
         width: 960px;
     }
 }
 
-@media only screen and (max-width: 600px) {
+/* If the screen size is 600 or less, perform the following */
+@media only screen and (max-width: 980px) {
     .content {
-
+        width: 100%;
+        font-size: 13px;
+        margin-left: 0;
+        text-align: left;
+    }
+    #imgofme {
+        /* float: left; */
+        width: 400px;
+        height: 350px;
+        padding: 20px;
+    }
+    .navbar-light .navbar-brand {
+        font-size: 20px;
+        margin-left: 0;
+    }
+    h2 {
+        font-size: 20px;
     }
 
+}
+
+.submit {
+    color: rgb(255, 255, 255);
+    background-color: rgb(85, 194, 188);
 }
