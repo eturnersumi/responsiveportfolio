@@ -109,7 +109,24 @@ footer {
 }
 
 #img {
-    width: 300px;
-    height: 250px;
-    padding: 20px;
+    width: 260px;
+    height: 210px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 1;
+    
+}
+
+.box {
+    background-color: rgb(85, 194, 188);
+    color: rgb(255, 255, 255);
+    width: 260px;
+    position: absolute;
+    bottom: 8%;
+    z-index: 2;
+
+}
+
+.box box1 {
+    background-color: black;
 }
