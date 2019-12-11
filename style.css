@@ -6,8 +6,9 @@
     color: white;
     font-size: 30px;
     padding: 30px;
-    position: relative;
-    left: 10%;
+    margin-left: 10.5%;
+    /* position: relative;
+    left: 10%; */
 }
 
 .navbar-nav {
@@ -42,7 +43,7 @@ h2 {
 }
 
 .content  {
-    width: 40%;
+    width: 960px;
     background-color: white;
     padding: 20px;
     position: fixed;
@@ -58,6 +59,20 @@ footer {
     padding: 20px;
     position: fixed;
     width: 100%;
-    top: 90%;
+    top: 93%;
     text-align: center;
+}
+
+/* If the screen size is 600px or more, perform the following */
+@media only screen and (min-width: 601px) {
+    .content {
+        width: 960px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+
+    }
+
 }
