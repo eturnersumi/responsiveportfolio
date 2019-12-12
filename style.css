@@ -14,7 +14,7 @@
 
 /* Padding to set about, portfolio, contact to the right */
 .navbar-nav {
-    padding-left: 80%;
+    padding-left: 75%;
 }
 
 /* Setting padding for full nav-bar */
@@ -68,7 +68,7 @@ footer {
     color: rgb(255, 255, 255);
 }
 
-/* If the screen size is 981px or more, perform the following */
+/* If the screen size is 981px or more, perform the following. This works for additional external monitors but not perfect on laptop screen */
 @media only screen and (min-width: 981px) {
     .content {
         width: 960px;
@@ -100,18 +100,33 @@ footer {
         padding: 0;
         top: 97%;
     }
-
+                    
 }
 
+/* @media only screen and (max-width: 1030px) {
+    footer {
+       padding: 0; 
+    }
+} */
+
+/* Media query to properly align footer on laptop sized screen */
+@media only screen and (max-height: 1900px) {
+    footer {
+        z-index: 3;
+    }
+    .content {
+        padding-bottom: 5%;
+    }
+   
+}
+
+/* Submit button on contact page */
 .submit {
     color: rgb(255, 255, 255);
     background-color: rgb(85, 194, 188);
 }
 
-.col-sm-6 {
-    /* padding: ; */
-}
-
+/* images on portfolio page */
 #img {
     width: 260px;
     height: 210px;
@@ -121,6 +136,7 @@ footer {
     
 }
 
+/* labels on pictures */
 .box {
     background-color: rgb(85, 194, 188);
     color: rgb(255, 255, 255);
@@ -131,6 +147,3 @@ footer {
 
 }
 
-.box box1 {
-    background-color: black;
-}
